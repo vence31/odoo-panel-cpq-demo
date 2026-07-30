@@ -7,6 +7,8 @@
     'depends': ['sale'],
     'data': [
         'security/ir.model.access.csv',
+        'data/panel_cpq_sequence.xml',
+        'views/panel_cpq_instance_views.xml',
     ],
     'installable': True,
     'application': False,
