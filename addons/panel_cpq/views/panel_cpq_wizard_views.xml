@@ -1,0 +1,25 @@
+<odoo>
+    <record id="view_panel_cpq_wizard_form" model="ir.ui.view">
+        <field name="name">panel.cpq.wizard.form</field>
+        <field name="model">panel.cpq.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Add Panel (CPQ)">
+                <group>
+                    <field name="sale_order_id" invisible="1"/>
+                    <field name="material"/>
+                    <field name="length_in"/>
+                    <field name="width_in"/>
+                    <field name="thickness_mm"/>
+                </group>
+                <group>
+                    <field name="price"/>
+                    <field name="description"/>
+                </group>
+                <footer>
+                    <button name="action_add_to_quote" type="object" string="Add to Quote" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

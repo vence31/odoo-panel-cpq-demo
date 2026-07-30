@@ -8,7 +8,10 @@
     'data': [
         'security/ir.model.access.csv',
         'data/panel_cpq_sequence.xml',
+        'data/panel_cpq_product_data.xml',
         'views/panel_cpq_instance_views.xml',
+        'views/panel_cpq_wizard_views.xml',
+        'views/sale_order_views.xml',
     ],
     'installable': True,
     'application': False,
